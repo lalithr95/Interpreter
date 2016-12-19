@@ -62,7 +62,7 @@ func TestNextTokenInput(t *testing.T) {
     {token.IDENT, "add"},
     {token.ASSIGN, "="},
     {token.FUNCTION, "fn"},
-    {token.LPAREN, "{"},
+    {token.LPAREN, "("},
     {token.IDENT, "x"},
     {token.COMMA, ","},
     {token.IDENT, "y"},
