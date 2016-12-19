@@ -1,0 +1,7 @@
+name: monkey
+up:
+- go: 1.7.1
+commands:
+  build: go build
+  run-built: ./test
+  test: go test ./...
